@@ -1,4 +1,11 @@
 # Latest-News-App-using-REACT-and-a-public-API
+#### This app fetch data from a public API **https://currentsapi.services/en** and displayed it with a grid fashion. Also there is an option to search for news related to a specific keyword
+
+### Stack used : 
+    - HTML/CSS
+    - REACT JS
+    - AXIOS
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
