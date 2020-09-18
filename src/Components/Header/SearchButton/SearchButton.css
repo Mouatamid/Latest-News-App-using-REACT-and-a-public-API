@@ -1,0 +1,15 @@
+.search-button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding : 5px 15px;
+    margin-right: 35px;
+    background-color: rgb(138, 137, 137);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.search-button:hover{
+    background-color: rgb(49, 49, 49);
+}

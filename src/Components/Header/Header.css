@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    padding: 1em;
+    border-bottom: 6px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(117, 117, 117);
+}
+h1 span{
+    color: #000;
+}
+
+@media(max-width : 612px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0em;
+    }
+    .header *{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+.new{
+    border: 0.5px solid rgb(224, 224, 224);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    box-shadow: 6px 4px 18px 0px rgba(201,201,201,1);
+    margin: 15px;
+}
+.new:hover .new-title{
+    text-decoration: underline;
+}
+@media(max-width : 800px){
+    .new{
+        width: 40%;
+    }
+}
+
+@media(max-width : 500px){
+    .new{
+        width: 80%;
+    }
+}

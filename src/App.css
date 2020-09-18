@@ -1,0 +1,13 @@
+.App{
+    width: 100%;
+}
+
+.loading{
+    position: relative;
+    font-family: monospace ;
+    width: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 180px;
+}
